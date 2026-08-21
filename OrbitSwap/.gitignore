@@ -1,0 +1,17 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+# Environment
+.env
+# ML artifacts and generated data
+ml/data/*.csv
+ml/artifacts/*.joblib
+# Local database
+*.db
+# Node
+frontend/node_modules/
+frontend/dist/
+# IDE
+.vscode/
+.DS_Store
